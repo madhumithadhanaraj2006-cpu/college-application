@@ -1,0 +1,78 @@
+body{
+    font-family:Arial;
+    background:#eaf3ff;
+}
+
+.container{
+    width:500px;
+    margin:30px auto;
+    padding:25px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+h1{
+    text-align:center;
+    color:#003366;
+}
+
+.subtitle{
+    text-align:center;
+    color:#666;
+}
+
+label{
+    display:block;
+    margin-top:12px;
+    font-weight:bold;
+}
+
+input[type="text"],
+select,
+input[type="date"],
+textarea{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+    box-sizing:border-box;
+}
+
+textarea{
+    height:70px;
+}
+
+.gender input{
+    width:auto;
+}
+
+input[type="checkbox"]{
+    width:auto;
+}
+
+span{
+    display:block;
+    color:red;
+    font-size:13px;
+    margin-top:3px;
+}
+
+button{
+    width:100%;
+    padding:10px;
+    margin-top:15px;
+    border:0;
+    background:#0066cc;
+    color:white;
+    cursor:pointer;
+}
+
+.reset{
+    background:#777;
+}
+
+#success{
+    color:green;
+    text-align:center;
+    font-weight:bold;
+}

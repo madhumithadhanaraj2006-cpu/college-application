@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>College Application Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>🎓 College Application Form</h1>
+    <p class="subtitle">Online Admission Portal 2026-2027</p>
+
+    <form id="applicationForm" onsubmit="return validateForm()">
+
+        <label>Student Name</label>
+        <input type="text" id="name" placeholder="Enter your name">
+        <span id="nameError"></span>
+
+        <label>Register Number</label>
+        <input type="text" id="regno" placeholder="Enter register number">
+        <span id="regError"></span>
+
+        <label>Email</label>
+        <input type="text" id="email" placeholder="Enter email">
+        <span id="emailError"></span>
+
+        <label>Mobile Number</label>
+        <input type="text" id="mobile" placeholder="Enter mobile number">
+        <span id="mobileError"></span>
+
+        <label>Date of Birth</label>
+        <input type="date" id="dob">
+        <span id="dobError"></span>
+
+        <label>Department</label>
+        <select id="department">
+            <option value="">Select Department</option>
+            <option>Computer Science</option>
+            <option>Information Technology</option>
+            <option>Commerce</option>
+            <option>Business Administration</option>
+        </select>
+        <span id="departmentError"></span>
+
+        <label>12th Percentage</label>
+        <input type="text" id="percentage" placeholder="Enter percentage">
+        <span id="percentageError"></span>
+
+        <label>Gender</label>
+
+        <div class="gender">
+            <input type="radio" name="gender" value="Male"> Male
+            <input type="radio" name="gender" value="Female"> Female
+        </div>
+
+        <span id="genderError"></span>
+
+        <label>Address</label>
+        <textarea id="address" placeholder="Enter your address"></textarea>
+        <span id="addressError"></span>
+
+        <label>
+            <input type="checkbox" id="declaration">
+            I confirm that the information provided is correct.
+        </label>
+
+        <span id="declarationError"></span>
+
+        <button type="submit">Submit Application</button>
+
+        <button type="reset" class="reset">Reset</button>
+
+        <p id="success"></p>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

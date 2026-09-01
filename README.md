@@ -40,6 +40,7 @@ college-application/
 ├── style.css
 ├── script.js
 └── README.md
+
 ## 🌐 Live Demo
 
 The College Application Form is hosted using GitHub Pages.

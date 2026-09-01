@@ -31,16 +31,6 @@ The form provides clear validation messages below the respective fields, making 
 - JavaScript – Form validation
 - Selenium IDE – Functional testing
 
-## 📂 Project Structure
-
-```text
-college-application/
-│
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-
 ## 🌐 Live Demo
 
 The College Application Form is hosted using GitHub Pages.
